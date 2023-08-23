@@ -6,5 +6,8 @@ export const store = configureStore({
   reducer: {
     calendar: calendarSlice,
     ui: uiSlice
-  }
+  },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware({
+    serializableCheck: false
+  })
 })
