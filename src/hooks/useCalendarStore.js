@@ -40,7 +40,7 @@ export const useCalendarStore = () => {
       const events = convertDateEvents(data.events)
       dispatch(onLoadEvents(events))
     } catch (error) {
-      console.log('Error loading events')
+      console.error('Error loading events')
       console.error(error)
     }
   }
