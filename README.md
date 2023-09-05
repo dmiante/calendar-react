@@ -1,10 +1,12 @@
 # CALENDAR APP
 
-## Development
+App of a calendar using the react-big-calendar library and events stored in a database.
 
-1. Rename .env.template for .env
-2. Change .env with your variables
+## 📦 Techs:
 
-```
-VITE_API_URL=http://localhost:4000/api
-```
+- ⚡️ [Vitejs](https://vitejs.dev/)
+- 💙 [React 18](https://reactjs.org/)
+- ⚛️ [Redux Toolkit](https://redux-toolkit.js.org/)
+- 🌐 [Axios](https://axios-http.com/docs/intro)
+- 🍩 [Sweetalert2](https://sweetalert2.github.io/)
+
